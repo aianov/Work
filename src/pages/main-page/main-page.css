@@ -1,0 +1,96 @@
+.main-logo {
+    width: 160px;
+    height: 40px;
+    padding: 17px 0px 0px 20px;
+}
+.main-logo__logo {
+    width: inherit;
+    height: inherit;
+}
+
+/* main elements, кнопки и тайтл */
+
+.wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-elements {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    font-style: normal;
+    font-family: "comforta";
+    margin-right: 50px;
+}
+.main-elements__title {
+    height: 80px;
+}
+.main-elements__title-p {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.main-elements__btns {
+    display: flex;
+    justify-content: center;
+    min-width: 450px;
+}
+.main-elements_btn:last-child {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.13) 50%, rgb(255, 255, 255) 50%) right;
+    backdrop-filter: blur(3px);
+    background-size: 200%;
+}
+.main-elements_btn:last-child:hover {
+    background-position: left;
+}
+.main-elements_btn:first-child {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.13) 50%, rgb(255, 255, 255) 50%) left;
+    backdrop-filter: blur(3px);
+    background-size: 200%;
+}
+.main-elements_btn:first-child:hover {
+    background-position: right;
+}
+.main-elements_btn:last-child {
+    transition: .32s ease-in-out;
+}
+.main-elements_btn:last-child:hover {
+    color: black;
+    transition: .32s ease-in-out;
+}
+.main-elements_btn:first-child {
+    transition: .2s ease-in-out;
+}
+.main-elements_btn:first-child:hover {
+    color: black;
+    transition: .32s ease-in-out;
+}
+.main-elements__btns a {
+    color: white;
+    font-size: 38px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 5px 15px;
+}
+.main-elements__btns a:first-child {
+    margin-right: 30px;
+}
+
+.center {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 3px solid pink;
+    bottom: 85%;
+    left: 6%;
+    display: flex;
+    justify-content: center;
+}
+.main-elements_btn {
+    backdrop-filter: blur(3px);
+}

@@ -1,4 +1,4 @@
-# Work
+# Task #1
 1. npm i -g create-react-app 
 2. cd ..
 3. npm install react-icons —save
